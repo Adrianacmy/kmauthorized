@@ -13,7 +13,7 @@ A general website for IT business
 - run index.html under src 
 
 ## Known Bugs
-- images in activities section are not responsive
+- images in activities section are not well resized
 - social icons are not functioning well
 
 ## Support and contact details
