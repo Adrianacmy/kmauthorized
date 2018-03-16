@@ -10,15 +10,14 @@ A general website for IT business
 
 ## Setup/Installation Requirements 
 - clone to local `git clone https://github.com/Adrianacmy/kmauthorized.git`
-- create a new branch and work on it
-`git checkout -b branch-name`
+- run index.html in under src 
 
 ## Known Bugs
 - images in activities section are not responsive
 - social icons are not functioning well
 
 ## Support and contact details
-@Adriana
+@Adrianacmy
 
 ## Technologies Used
 - Html
