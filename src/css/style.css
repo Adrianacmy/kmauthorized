@@ -1,3 +1,5 @@
+/* VARIABLES
+------------------------------------------------------------------------- */
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -6198,6 +6200,8 @@ a.text-dark:hover, a.text-dark:focus {
         font-weight: normal;
         color: #fff !important; } }
 
+/* HERO
+-------------------------------------------------------------------------*/
 #hero {
   background: linear-gradient(to right, rgba(34, 37, 29, 0.88), rgba(44, 38, 48, 0.96)), url(../assets/header-bg.jpg) fixed center center;
   background-size: cover;
@@ -6210,33 +6214,24 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* PRICING
 ------------------------------------------------------------------------- */
-@media (min-width: 768px) {
-  html {
-    font-size: 16px; } }
-
-.container {
-  max-width: 960px; }
-
-.pricing-header {
+#pricing .pricing-header {
   max-width: 700px; }
 
-.card-deck .card {
-  min-width: 220px; }
+#pricing .container {
+  max-width: 960px; }
+  #pricing .container .card-deck .card {
+    min-width: 220px; }
 
-.border-top {
-  border-top: 1px solid #e5e5e5; }
-
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5; }
-
-.box-shadow {
+#pricing .box-shadow {
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05); }
 
-.btn {
+#pricing .btn {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px; }
 
+/* SUBSCRIBE
+------------------------------------------------------------------------------ */
 #subscribe h2 {
   letter-spacing: 4px;
   font-weight: bold; }
@@ -6253,14 +6248,10 @@ a.text-dark:hover, a.text-dark:focus {
   color: #fff;
   cursor: pointer; }
 
-/* MARKETING CONTENT
--------------------------------------------------- */
-/* Center align the text within the three columns below the carousel */
+/* MARKETING
+--------------------------------------------------------------------------------- */
 #marketing {
   background-color: #e9ecef; }
-
-#testimonies {
-  background-color: #e3eefc; }
 
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
@@ -6273,26 +6264,19 @@ a.text-dark:hover, a.text-dark:focus {
   margin-right: .75rem;
   margin-left: .75rem; }
 
-/* Featurettes
-------------------------- */
-.featurette-img {
-  width: 20%; }
-
-.featurette img {
-  width: 10rem; }
-
-.featurette-divider {
-  margin: 2rem 0;
-  /* Space out the Bootstrap <hr> more */ }
-
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -.05rem; }
+/* TESTIMONIES
+---------------------------------------------------------------------------------*/
+#testimonies {
+  background-color: #e3eefc; }
+  #testimonies .featurette img {
+    width: 10rem; }
+  #testimonies .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem; }
 
 /* RESPONSIVE CSS
--------------------------------------------------- */
+--------------------------------------------------------------------------- */
 @media (min-width: 40em) {
   .featurette-heading {
     font-size: 40px; } }
@@ -6302,7 +6286,7 @@ a.text-dark:hover, a.text-dark:focus {
     margin-top: 5rem; } }
 
 /* FOOTER
-------------------------------------------------------- */
+----------------------------------------------------------------------------- */
 #footer {
   background-color: #4a5f7a; }
   #footer span {
@@ -6314,6 +6298,8 @@ a.text-dark:hover, a.text-dark:focus {
     #footer span a {
       color: white; }
 
+/* COPYRIGHT
+--------------------------------------------------------------------------------- */
 #copyright {
   background-color: #2f3a49; }
   #copyright a {
