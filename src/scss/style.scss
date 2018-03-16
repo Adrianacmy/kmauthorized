@@ -1,0 +1,72 @@
+$font-family-sans-serif: "Raleway", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+$green: #00FFC4;
+
+$primary: $green;
+$link-color: $green;
+$body-bg: #1A1B1D;
+
+$font-family-sans-serif: "Raleway", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+$spacer: 1rem ;
+$spacers: ();
+$spacers: map-merge((
+0: 0,
+1: ($spacer * .25),
+2: ($spacer * .5),
+3: $spacer,
+4: ($spacer * 1.5),
+5: ($spacer * 3),
+6: ($spacer * 6),
+),$spacers);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.navbar {
+  width:100%;
+  background:none !important;
+
+  @media(max-width: 34em) {
+    background: black !important;
+  }
+
+  .navbar-toggler {
+    cursor:pointer;
+    outline:0;
+  }
+
+  .nav-link {
+    text-transform:uppercase;
+    font-weight:bold;
+  }
+
+  .nav-item {
+    padding: 0 1rem;
+
+    @media(max-width: 34em) {
+      padding: 0;
+    }
+
+    .nav-link {
+      @media(max-width: 34em) {
+        font-weight:normal;
+        color:#fff !important;
+      }
+    }
+  }
+}
+
+#hero {
+  //background-image: url("../assets/header-bg.jpg");
+  background: linear-gradient(to right, rgba(34, 37, 29, 0.88), rgba(44, 38, 48, 0.96)), url(../assets/header-bg.jpg) fixed center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 60%;
+
+  .hero-content {
+    h1 {
+      font-weight: bold;
+    }
+    color: #fff;
+  }
+}
