@@ -4,15 +4,14 @@
     <title>kmauthorized</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
     <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+<!-- HERO PRICING -->
 <div id="hero">
     <div class="container">
         <div class="row">
@@ -37,11 +36,10 @@
                             <a class="nav-link text-primary" href="#">Disabled</a>
                         </li>
                     </ul>
-                </div>
+                </div><!--/.collapse navbar-collapse...-->
             </nav>
         </div><!--/.row-->
 
-        <!--header background start-->
         <div class="row hero-content pt-5 py-lg-6">
             <div class="col-12 col-md-6">
                 <h1 class="text-uppercase text-center text-md-left mb-4">Guilt-free IT, hand tech stress to me</h1>
@@ -53,22 +51,20 @@
             <div class="col-12 col-md-6 text-center">
                 <img src="../assets/log.png" alt="" class="mt-5 mt-md-0">
             </div>
-        </div><!--header background end-->
+        </div><!--/.row .hero-content-->
+    </div><!--/.container-->
+</div><!--/#hero-->
+<!--/HERO END-->
 
-    </div><!--div class=container-->
-</div><!--/div id=hero-->
 
-<!-- Marketing messaging and featurettes
-  ================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
+<!-- MARKETING PRICING -->
 <div class="container-fluid" id="marketing">
     <div class="container marketing">
         <h1 class="py-6 text-center">Who are covered?</h1>
-        <!-- Three columns of text below the carousel -->
         <div class="row">
             <div class="col-lg-4">
                 <img class="rounded-circle"
-                     src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                     src="../assets/super.jpg"
                      alt="Generic placeholder image" width="140" height="140">
                 <h2>Service1</h2>
                 <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
@@ -78,7 +74,7 @@
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="rounded-circle"
-                     src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                     src="../assets/super.jpg"
                      alt="Generic placeholder image" width="140" height="140">
                 <h2>Service1</h2>
                 <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras
@@ -88,7 +84,7 @@
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="rounded-circle"
-                     src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+                     src="../assets/super.jpg"
                      alt="Generic placeholder image" width="140" height="140">
                 <h2>Service1</h2>
                 <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
@@ -99,6 +95,7 @@
         </div><!-- /.row -->
     </div><!-- /.container -->
 </div><!-- /.container-fluid -->
+<!--/SERVICE END-->
 
 
 <!-- START PRICING -->
@@ -108,55 +105,57 @@
         <p class="lead ">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.</p>
     </div>
     <div class="container">
-    <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-            <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Free</h4>
+        <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Free</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>10 users included</li>
+                        <li>2 GB of storage</li>
+                        <li>Email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+                </div><!--/.card-body-->
+            </div><!--/.card mb-4 box-shadow-->
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Pro</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>20 users included</li>
+                        <li>10 GB of storage</li>
+                        <li>Priority email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+                </div>
             </div>
-            <div class="card-body">
-                <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                    <li>10 users included</li>
-                    <li>2 GB of storage</li>
-                    <li>Email support</li>
-                    <li>Help center access</li>
-                </ul>
-                <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
-            </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-            <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Pro</h4>
-            </div>
-            <div class="card-body">
-                <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                    <li>20 users included</li>
-                    <li>10 GB of storage</li>
-                    <li>Priority email support</li>
-                    <li>Help center access</li>
-                </ul>
-                <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
-            </div>
-        </div>
-        <div class="card mb-4 box-shadow">
-            <div class="card-header">
-                <h4 class="my-0 font-weight-normal">Enterprise</h4>
-            </div>
-            <div class="card-body">
-                <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
-                <ul class="list-unstyled mt-3 mb-4">
-                    <li>30 users included</li>
-                    <li>15 GB of storage</li>
-                    <li>Phone and email support</li>
-                    <li>Help center access</li>
-                </ul>
-                <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Enterprise</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>30 users included</li>
+                        <li>15 GB of storage</li>
+                        <li>Phone and email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</div><!--/.container-fluid-->
 <!--/ END PRICING -->
+
 
 <!-- START THE TESTIMONIES -->
 <div class="container-fluid py-5" id="testimonies">
@@ -181,7 +180,7 @@
 <!-- /END THE TESTIMONIES -->
 
 
-    <!-- START THE ACTIVITIES -->
+<!-- START THE ACTIVITIES -->
 <div id="activities">
     <div class="container pb-4 pt-6">
         <div class="row mb-2">
@@ -214,7 +213,6 @@
                 </div>
             </div>
         </div>
-
         <div class="row">
             <div class="col-md-6 mb-sm-3">
                 <div class="card flex-md-row mb-4 box-shadow h-md-250">
@@ -250,7 +248,8 @@
 <!-- /END THE ACTIVITIES -->
 
 
-<div id="join-container" class="container-fluid pt-lg-6 pb-lg-5 pt-5 pb-4">
+<!--SUBSCRIBE START-->
+<div id="subscribe" class="container-fluid pt-lg-6 pb-lg-5 pt-5 pb-4">
     <div class="container text-center">
         <h2 class="text-uppercase mb-3">sign in for our news letter</h2>
         <h4 class="text-uppercase">We'll give you awesome deal and resources.</h4>
@@ -267,7 +266,10 @@
         </form>
     </div>
 </div>
+<!--/SUBSCRIBE END-->
 
+
+<!--FOOTER START-->
 <div id="footer" class="py-5 text-white">
     <div class="container">
         <div class="row">
@@ -326,7 +328,10 @@
         </div><!--/.row-->
     </div><!--/.container-->
 </div><!--/#footer-->
+<!--/FOOTER END-->
 
+
+<!--COPYRIGHT START-->
 <div id="copyright" class="py-4 text-white">
     <div class="container">
         <div class="row">
@@ -338,14 +343,13 @@
             </div>
         </div>
     </div>
-
 </div>
-
-
+<!--/COPYRIGHT END-->
 
 
 <script src="/js/jquery.min.js"></script>
 <script src="/js/tether.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
+
 </body>
 </html>

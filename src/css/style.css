@@ -6237,22 +6237,17 @@ a.text-dark:hover, a.text-dark:focus {
   -moz-border-radius: 0px;
   border-radius: 0px; }
 
-#target-customer {
-  background-color: #e9ecef; }
-
-#join-container h2 {
+#subscribe h2 {
   letter-spacing: 4px;
   font-weight: bold; }
 
-#join-container h4 {
+#subscribe h4 {
   color: gray; }
 
-#join-container .form-control {
-  background: #2f3a49;
-  border: 3px solid #2F2F2F;
+#subscribe .form-control {
   padding: 10px; }
 
-#join-container .btn {
+#subscribe .btn {
   padding: 12px;
   border: none;
   color: #fff;
@@ -6311,11 +6306,15 @@ a.text-dark:hover, a.text-dark:focus {
 #footer {
   background-color: #4a5f7a; }
   #footer span {
-    border-radius: 100%;
+    border-radius: 20%;
     padding: 1px;
-    border: 0.3rem solid white; }
+    border: 0.3rem solid white;
+    width: 1rem;
+    height: 1rem; }
     #footer span a {
       color: white; }
 
 #copyright {
   background-color: #2f3a49; }
+  #copyright a {
+    color: white; }

@@ -103,12 +103,7 @@ $spacers: map-merge((
 }
 
 
-#target-customer {
-  background-color: #e9ecef;
-
-}
-
-#join-container {
+#subscribe {
   //background-color: #e9ecef;
 
   h2 {
@@ -121,8 +116,6 @@ $spacers: map-merge((
   }
 
   .form-control {
-    background:#2f3a49;
-    border: 3px solid #2F2F2F;
     padding:10px;
   }
 
@@ -200,10 +193,11 @@ $spacers: map-merge((
   background-color: #4a5f7a;
 
   span{
-    border-radius: 100%;
+    border-radius: 20%;
     padding: 1px;
     border: 0.3rem solid white;
-
+    width: 1rem;
+    height: 1rem;
     a {
       color: white;
     }
@@ -212,4 +206,7 @@ $spacers: map-merge((
 }
 #copyright {
   background-color: #2f3a49;
+  a {
+    color: white;
+  }
 }
