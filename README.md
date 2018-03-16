@@ -10,7 +10,7 @@ A general website for IT business
 
 ## Setup/Installation Requirements 
 - clone to local `git clone https://github.com/Adrianacmy/kmauthorized.git`
-- run index.html in under src 
+- run index.html under src 
 
 ## Known Bugs
 - images in activities section are not responsive
