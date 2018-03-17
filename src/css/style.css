@@ -6184,6 +6184,9 @@ a.text-dark:hover, a.text-dark:focus {
   @media (max-width: 34em) {
     .navbar {
       background: black !important; } }
+  .navbar .navbar-nav .dropdown .dropdown-item, .navbar .navbar-nav .dropdown .show {
+    background: linear-gradient(to right, rgba(34, 37, 29, 0.88), rgba(44, 38, 48, 0.96)), url(../assets/header-bg.jpg) fixed center center;
+    border: none; }
   .navbar .navbar-toggler {
     cursor: pointer;
     outline: 0; }

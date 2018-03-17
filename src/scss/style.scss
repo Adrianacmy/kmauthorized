@@ -30,6 +30,14 @@ $spacers: map-merge((
     background: black !important;
   }
 
+  .navbar-nav{
+    .dropdown {
+      .dropdown-item, .show {
+        background: linear-gradient(to right, rgba(34, 37, 29, 0.88), rgba(44, 38, 48, 0.96)), url(../assets/header-bg.jpg) fixed center center;
+        border: none;
+      }
+    }
+  }
   .navbar-toggler {
     cursor:pointer;
     outline:0;
